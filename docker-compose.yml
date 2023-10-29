@@ -3,6 +3,7 @@ version: '3'
 services:
   runner:
     build: .
+    
     deploy:
       mode: replicated
       replicas: 1
