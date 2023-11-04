@@ -4,9 +4,9 @@ services:
   runner:
     image: rhennancordeiro/github-actions:latest
     environment:
-      - ORGANIZATION=RhennanCordeiro
-      - ACCESS_TOKEN=
-
+      - ORGANIZATION=RhennanCordeiro/codeoff_pay
+      - ACCESS_TOKEN=AG5J6WJ5QXGZUTHHOOLWAX3FIZVJI
+    restart: always
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:rw
       - /home/docker/container-data:/home/docker/container-data:rw
