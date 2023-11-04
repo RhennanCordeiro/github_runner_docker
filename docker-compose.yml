@@ -3,13 +3,6 @@ version: '3'
 services:
   runner:
     image: rhennancordeiro/github-actions:latest
-    
-    deploy:
-      mode: replicated
-      replicas: 1
-      placement:
-        constraints:
-          - node.role == worker
     environment:
       - ORGANIZATION=RhennanCordeiro
       - ACCESS_TOKEN=
