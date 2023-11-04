@@ -2,7 +2,7 @@
 FROM ubuntu:23.04
 
 # set the github runner version
-ARG RUNNER_VERSION="2.310.2"
+ARG RUNNER_VERSION="2.311.0"
 ENV DEBIAN_FRONTEND=noninteractive
 ENV RUNNER_ALLOW_RUNASROOT=1
 # update the base packages and add a non-sudo user
