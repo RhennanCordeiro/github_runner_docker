@@ -1,2 +1,2 @@
 make create:
-	docker-compose up -d
+	docker compose up -d
