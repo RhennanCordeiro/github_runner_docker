@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 
 # set the github runner version
-ARG RUNNER_VERSION="2.323.0"
+ARG RUNNER_VERSION="2.327.1"
 ENV DEBIAN_FRONTEND=noninteractive
 ENV RUNNER_ALLOW_RUNASROOT=1
 
